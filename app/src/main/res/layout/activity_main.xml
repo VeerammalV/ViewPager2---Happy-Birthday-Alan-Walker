@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/black_100"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+<!--    <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator-->
+<!--        android:id="@+id/dots_indicator"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        app:dotsColor="@color/gold"-->
+<!--        app:dotsSize="12dp"-->
+<!--        app:dotsSpacing="6dp"-->
+<!--        app:dotsStrokeColor="@color/black_100"-->
+<!--        app:dotsStrokeWidth="8dp"-->
+<!--        app:layout_constraintStart_toStartOf="@id/image"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/image"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/image" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
